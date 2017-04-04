@@ -12,4 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
+//= require jquery.easing
+//= require scrollreveal
+//= require jquery.magnific-popup
+//= require cable
+//= require creative
 //= require_tree .

@@ -11,6 +11,26 @@ hr {
   border-width: 3px;
   max-width: 50px;
 }
+#fixedbutton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+}
+
+#contactmodal {
+  text-align: center;
+  color: #5FCF80;
+}
+
+#contactmodal input, textarea {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contactmodal textarea {
+  height: 300px;
+}
 hr.light {
   border-color: white;
 }

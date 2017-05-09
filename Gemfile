@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sendgrid-ruby'
 
 group :development do
   gem 'listen', '~> 3.0.5'

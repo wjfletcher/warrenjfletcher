@@ -23,6 +23,11 @@ hr {
   color: #5FCF80;
 }
 
+.alert {
+  position: relative;
+  top: 50px;
+}
+
 #contactmodal input, textarea {
   max-width: 400px;
   margin: 0 auto;

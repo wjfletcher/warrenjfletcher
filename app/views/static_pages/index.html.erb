@@ -64,7 +64,14 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
+
 <header>
+  <% if notice %>
+  <div class="alert alert-success alert-dismissible alert-message" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <%= notice %>
+  </div>
+  <% end %>
   <div class="header-content">
     <div class="header-content-inner">
       <h1 id="homeHeading">Full Stack Web Developer</h1>
@@ -75,6 +82,8 @@
     </div>
   </div>
 </header>
+
+
 
 <section class="bg-primary" id="about">
   <div class="container">

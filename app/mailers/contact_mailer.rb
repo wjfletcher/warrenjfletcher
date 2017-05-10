@@ -3,6 +3,7 @@ class ContactMailer < ApplicationMailer
     @name = name
     @email = email
     @message = message
+    binding.pry
     mail(from: @email, to: "warren@warrenjfletcher.tech", subject:"Message from warrenjfletcher.tech from #{@name}")
   end
 end
